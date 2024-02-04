@@ -1,0 +1,48 @@
+/* App.css */
+
+.AppContainer {
+  display: flex;
+  height: 100vh;
+}
+
+.Content {
+  flex-grow: 1;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Magic here */
+  display: flex;
+}
+
+.VerticalMenu {
+  min-width: 200px;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+}
+
+.HorizontalMenu {
+  min-width: 100px;
+  background: #f0f0f0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+  margin-bottom: 30em;
+}
+
+.MenuItem {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: black;
+}
+
+.MenuItem:hover {
+  background: #ddd;
+}
+
+.MenuItem.active {
+  background: #bbb;
+}
