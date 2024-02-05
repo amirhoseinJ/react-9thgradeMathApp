@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-9thgradeMathApp/static/css/main.980f8e21.css",
+    "main.js": "/react-9thgradeMathApp/static/js/main.e4436837.js",
+    "static/media/sphere.png": "/react-9thgradeMathApp/static/media/sphere.00a0b3c540df8dfa05f2.png",
+    "static/media/cone.png": "/react-9thgradeMathApp/static/media/cone.44872c0a6c7f89c262f9.png",
+    "static/media/cube.png": "/react-9thgradeMathApp/static/media/cube.7a8a7ce4ba9070ddbb2e.png",
+    "static/media/cylinder.png": "/react-9thgradeMathApp/static/media/cylinder.84792115dd86da343192.png",
+    "static/media/reccube.png": "/react-9thgradeMathApp/static/media/reccube.b044e7fd47bfcdf53cc5.png",
+    "index.html": "/react-9thgradeMathApp/index.html",
+    "main.980f8e21.css.map": "/react-9thgradeMathApp/static/css/main.980f8e21.css.map",
+    "main.e4436837.js.map": "/react-9thgradeMathApp/static/js/main.e4436837.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.980f8e21.css",
+    "static/js/main.e4436837.js"
+  ]
+}
