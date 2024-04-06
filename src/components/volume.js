@@ -15,7 +15,7 @@ export function RecCube(){
 
 
     return(<div className="volElement">
-        <img src={RecCubePic} height={200}></img>
+        <img src={RecCubePic} className=" h-48 m-10"></img>
 
         <div>طول = <input type={"number"} value={recCubeStates[0]} onChange={useCallback((e) => {
             setRecCubeStates(oldStates => {
@@ -59,7 +59,7 @@ export function Cube() {
     const [CubeStates, setCubeStates] = useState([1])
 
     return (<div className="volElement">
-        <img src={CubePic} height={200}></img>
+        <img src={CubePic} className=" h-48 m-10"></img>
 
         <div>ضلع = <input value={CubeStates[0]} type={"number"} onChange={useCallback((e) => {
             setCubeStates(oldStates => {
@@ -87,9 +87,10 @@ export function Cube() {
 export function Cone() {
     const [coneStates, setConeStates] = useState([1, 1])
 
-    return (<div className="volElement">
+    return (
+        <div className="volElement">
 
-        <img src={ConePic} height={200}></img>
+        <img src={ConePic} className=" h-48 m-10"></img>
 
         <div>شعاع قائده = <input value={coneStates[0]} type={"number"} onChange={useCallback((e) => {
             setConeStates(oldStates => {
@@ -128,7 +129,7 @@ export function Cylinder() {
     const [cylinderStates, setCylinderStates] = useState([1, 1])
 
     return (<div className="volElement">
-        <img src={CylinderPic} height={200}></img>
+        <img src={CylinderPic} className=" h-48 m-10"></img>
 
 
         <div>شعاع قائده = <input type={"number"} value={cylinderStates[0]} onChange={useCallback((e) => {
@@ -166,7 +167,7 @@ export function Sphere() {
     const [sphereStates, setSphereStates] = useState([1])
 
     return (<div className="volElement">
-        <img src={SpherePic} height={200}></img>
+        <img src={SpherePic} className=" h-48 m-10"></img>
 
         <div>شعاع = <input value={sphereStates[0]} type={"number"} onChange={useCallback((e) => {
             setSphereStates(oldStates => {
